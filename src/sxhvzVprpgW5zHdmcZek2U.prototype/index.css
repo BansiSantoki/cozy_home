@@ -1,0 +1,23 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORT — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORT MUST NEVER BE DELETED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss';
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@theme {
+  --font-sans: 'Lexend', ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #fbf5ec;
+  --color-sand: #efe2cf;
+  --color-cocoa: #4a1f12;
+  --color-ink: #2b1d14;
+  --color-forest: #1f5a2c;
+  --color-forest-deep: #143f1e;
+  --color-clay: #a8542a;
+}
+
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
